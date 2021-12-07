@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>441</width>
+      <width>511</width>
       <height>471</height>
      </rect>
     </property>
@@ -67,6 +67,24 @@
       <string>price</string>
      </property>
     </column>
+    <column>
+     <property name="text">
+      <string>volume</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="add_button">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>add</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
